@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
 :root {
-    --primary: #0077b6;
-    --secondary: #48cae4;
+    --primary: #0054b4;
+    --secondary: #37cae7;
     --black: #333;
     --white: #fff;
     --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
@@ -179,6 +179,37 @@ section {
 .swiper-button-next::after,
 .swiper-button-prev::after {
     font-size: 2rem;
+}
+
+/* end */
+
+/* availability */
+
+.availability form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    background: rgba(178, 213, 255, 0.847);
+    padding: 2rem 3rem;
+    border-radius: 2rem;
+}
+
+.availability form .box {
+    flex: 1 1 20rem;
+}
+
+.availability form .box p {
+    font-size: 2rem;
+    color: var(--primary);
+}
+
+.availability form .box .input {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.8rem;
+    color: var(--black);
+    margin: 1rem 0;
+    border-radius: .5rem;
 }
 
 /* end */
